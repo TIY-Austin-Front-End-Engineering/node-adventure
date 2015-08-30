@@ -34,29 +34,26 @@ After completing this assignment, you be able to effectively use
 ### Deliverables
 
 * A repo containing at least:
-  * `dist/css/*`
-  * `dist/js/*`
-  * `dist/game.js`
-  * `dist/index.html`
+  * `main.js`
 
 ### Requirements
 
-* No JSHint warnings or errors
+* No eshint warnings or errors
 
 
 ## Normal Mode
-Fork this repository and modify the `dist/game.js` file to create a choose your own adventure style game. Use boolean logic, string comparison and if statements to create a choose your own adventure style game. The theme is up to you.
+Create a classic choose your own adventure type game. Use variables to store player information along with if / else / else if statements to determine what questions a player should be asked next. Use Math.random() in at least one spot to randomly select the outcome of a players decision.
 
-Use the following commands to create the game...
+## Hard Mode
+Throughout your adventure, keep track of HP (health points) and gold coins (or some other form of currency). Players should start with 100 health points and lose them as they fight enemies. If their health drops below zero they lose the game. Players should be able to receive gold coins for good deeds and spend them on things within the game.
 
-1. `yield adventure.say` says something to the user. It can take two arguments, a heading and a sub-heading.
-2. `yield adventure.ask` prompts the user to input something into a text box. Takes one argument, a question to ask the user. The users input is returned.
-3. `yield adventure.choose` prompts the user to select an option from a list of options. Takes two or more arguments. The first argument is the question to ask the user. The subsequent arguments are the options that the user can choose from.
+## Nightmare Mode
+Allow users to find or purchase up to three items in the game. Items should help them as they continue on their adventure, either by increasing their health, fighting power, or unlocking secret areas of the game.
 
 
 ## Notes
 
-Notes go here...
+You should use the [sync-prompt](https://github.com/shovon/sync-prompt) node module to accept user input. You will need to use `npm` to install sync-prompt and `var prompt = require('sync-prompt')` to use it within your code.
 
 ## Additional Resources
 
