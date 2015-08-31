@@ -42,7 +42,11 @@ After completing this assignment, you be able to effectively use
 
 
 ## Normal Mode
-Create a classic choose your own adventure type game. Use variables to store player information along with if / else / else if statements to determine what questions a player should be asked next. Use Math.random() in at least one spot to randomly select the outcome of a players decision.
+Create a classic choose your own adventure type game. Use variables to store player information along with if / else / else if statements to determine what questions a player should be asked next. Use Math.random() in at least one spot to randomly select the outcome of a players decision. You can choose the theme of your game, but some ideas include:
+
+* Find and fight a dragon for a stash of treasure
+* Rescue your friend from a gang of orc kidnappers
+* Fight the empire to restore peace to the galaxy
 
 ## Hard Mode
 Throughout your adventure, keep track of HP (health points) and gold coins (or some other form of currency). Players should start with 100 health points and lose them as they fight enemies. If their health drops below zero they lose the game. Players should be able to receive gold coins for good deeds and spend them on things within the game.
